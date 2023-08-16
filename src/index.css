@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;   
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  /* font-family: 'IBM Plex Serif', serif; */}
+
+html{
+scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+width: 0.5rem;
+}
+::-webkit-scrollbar-track{
+background: var(--bs-remove-color);
+}
+::-webkit-scrollbar-thumb{
+background: var(--bs-badge-color);
+border-radius: 10rem;
+background-clip: content-box;
+}
+
+:root{
+  --bs-background-color:#1E2875;
+  --bs-text-color:#222222E5;
+  --bs-text-title-color:#1F1F1FB2;
+  --bs-badge-color:#FFCE10;
+  --bs-heading-color:#413B89;
+  --bs-remove-color:#BAB6EB;
+  --bs-bg-color:#FAFBFF;
+}
+h1{
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: "outfit";
+}
+h2{
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: "IBM Plex Serif";
+  color: #1A1558;
+  
+}
+
+h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'outfit';
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'outfit';
+}
+h5{
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: 'outfit';
+  color: #222222E5;
+}
+h6{
+  font-size: 0.8rem;
+}
+p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #49454FCC;
+}
+.overlap{
+position: absolute;
+top: 12rem;
+}
